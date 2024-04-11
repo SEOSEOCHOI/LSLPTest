@@ -42,6 +42,10 @@ class SignView: UIView {
         view.setTitle("회원가입", for: .normal)
         return view
     }()
+    let validateText: UILabel = {
+       let view = UILabel()
+        return view
+    }()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -51,7 +55,7 @@ class SignView: UIView {
     }
     
     func configureHierarchy() {
-        [emailTextField, passwordTextField, signInButton, signUpButton].forEach {
+        [emailTextField, passwordTextField, signInButton, signUpButton, validateText].forEach {
             addSubview($0)
         }
     }
@@ -73,6 +77,11 @@ class SignView: UIView {
         }
         signUpButton.snp.makeConstraints { make in
             make.top.equalTo(signInButton.snp.bottom).offset(10)
+            make.horizontalEdges.equalToSuperview().inset(10)
+            make.height.equalTo(40)
+        }
+        validateText.snp.makeConstraints { make in
+            make.top.equalTo(signUpButton.snp.bottom).offset(10)
             make.horizontalEdges.equalToSuperview().inset(10)
             make.height.equalTo(40)
         }
