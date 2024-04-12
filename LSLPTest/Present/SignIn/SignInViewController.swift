@@ -50,7 +50,7 @@ class SignInViewController: UIViewController {
                 print(url)
                 UserDefaults.standard.set(value.refreshToken, forKey: "refreshToken")
                 UserDefaults.standard.set(value.accessToken, forKey: "accessToken")
-                self.navigationController?.pushViewController(ViewController(), animated: true)
+                self.navigationController?.pushViewController(WithdrawViewController(), animated: true)
             case.failure(_):
                 if let code = response.response?.statusCode {
                     print(url)
@@ -64,6 +64,7 @@ class SignInViewController: UIViewController {
     }
     @objc func signUpButtonClicked() {
         print(#function)
+        self.navigationController?.pushViewController(SignUpViewController(), animated: true)
     }
 }
     

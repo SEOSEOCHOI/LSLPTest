@@ -32,6 +32,14 @@
 		2B9455552BC8149D00CC8D6D /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9455542BC8149D00CC8D6D /* LoginModel.swift */; };
 		2B9455572BC814CD00CC8D6D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9455562BC814CD00CC8D6D /* Router.swift */; };
 		2B9455592BC8173000CC8D6D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9455582BC8173000CC8D6D /* SignUpViewController.swift */; };
+		2B94555B2BC8509A00CC8D6D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94555A2BC8509A00CC8D6D /* SignUpView.swift */; };
+		2B94555D2BC8555E00CC8D6D /* JoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94555C2BC8555E00CC8D6D /* JoinModel.swift */; };
+		2B94555F2BC8560000CC8D6D /* CompletedSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94555E2BC8560000CC8D6D /* CompletedSignUpViewController.swift */; };
+		2B9455612BC8561D00CC8D6D /* CompletedSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9455602BC8561D00CC8D6D /* CompletedSignUpView.swift */; };
+		2B9455652BC85AB700CC8D6D /* Extension + ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9455642BC85AB700CC8D6D /* Extension + ViewController.swift */; };
+		2B9455672BC8638600CC8D6D /* WithdrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9455662BC8638600CC8D6D /* WithdrawView.swift */; };
+		2B9455692BC8639200CC8D6D /* WithdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9455682BC8639200CC8D6D /* WithdrawViewController.swift */; };
+		2B94556B2BC8682B00CC8D6D /* WithdrawModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94556A2BC8682B00CC8D6D /* WithdrawModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +64,14 @@
 		2B9455542BC8149D00CC8D6D /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		2B9455562BC814CD00CC8D6D /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		2B9455582BC8173000CC8D6D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		2B94555A2BC8509A00CC8D6D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		2B94555C2BC8555E00CC8D6D /* JoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinModel.swift; sourceTree = "<group>"; };
+		2B94555E2BC8560000CC8D6D /* CompletedSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedSignUpViewController.swift; sourceTree = "<group>"; };
+		2B9455602BC8561D00CC8D6D /* CompletedSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedSignUpView.swift; sourceTree = "<group>"; };
+		2B9455642BC85AB700CC8D6D /* Extension + ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + ViewController.swift"; sourceTree = "<group>"; };
+		2B9455662BC8638600CC8D6D /* WithdrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawView.swift; sourceTree = "<group>"; };
+		2B9455682BC8639200CC8D6D /* WithdrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawViewController.swift; sourceTree = "<group>"; };
+		2B94556A2BC8682B00CC8D6D /* WithdrawModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +122,7 @@
 				2B9455222BC7CFAA00CC8D6D /* LaunchScreen.storyboard */,
 				2B9455252BC7CFAA00CC8D6D /* Info.plist */,
 				2B94552D2BC7D00100CC8D6D /* APIKey.swift */,
+				2B9455642BC85AB700CC8D6D /* Extension + ViewController.swift */,
 			);
 			path = LSLPTest;
 			sourceTree = "<group>";
@@ -137,6 +154,9 @@
 			isa = PBXGroup;
 			children = (
 				2B9455582BC8173000CC8D6D /* SignUpViewController.swift */,
+				2B94555A2BC8509A00CC8D6D /* SignUpView.swift */,
+				2B94555E2BC8560000CC8D6D /* CompletedSignUpViewController.swift */,
+				2B9455602BC8561D00CC8D6D /* CompletedSignUpView.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -154,6 +174,8 @@
 			children = (
 				2B9455312BC7D06300CC8D6D /* SignIn */,
 				2B9455352BC7D13000CC8D6D /* SignUp */,
+				2B9455662BC8638600CC8D6D /* WithdrawView.swift */,
+				2B9455682BC8639200CC8D6D /* WithdrawViewController.swift */,
 			);
 			path = Present;
 			sourceTree = "<group>";
@@ -162,6 +184,8 @@
 			isa = PBXGroup;
 			children = (
 				2B9455542BC8149D00CC8D6D /* LoginModel.swift */,
+				2B94555C2BC8555E00CC8D6D /* JoinModel.swift */,
+				2B94556A2BC8682B00CC8D6D /* WithdrawModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -253,6 +277,7 @@
 			files = (
 				2B9455522BC8128F00CC8D6D /* NetworkManager.swift in Sources */,
 				2B9455492BC8123600CC8D6D /* TargetType.swift in Sources */,
+				2B9455652BC85AB700CC8D6D /* Extension + ViewController.swift in Sources */,
 				2B9455332BC7D08900CC8D6D /* SignView.swift in Sources */,
 				2B9455302BC7D05F00CC8D6D /* SignInViewController.swift in Sources */,
 				2B94551C2BC7CFA800CC8D6D /* ViewController.swift in Sources */,
@@ -261,11 +286,18 @@
 				2B9455442BC804F200CC8D6D /* SignInViewModel.swift in Sources */,
 				2B9455552BC8149D00CC8D6D /* LoginModel.swift in Sources */,
 				2B9455592BC8173000CC8D6D /* SignUpViewController.swift in Sources */,
+				2B94555F2BC8560000CC8D6D /* CompletedSignUpViewController.swift in Sources */,
 				2B94552E2BC7D00100CC8D6D /* APIKey.swift in Sources */,
+				2B94555D2BC8555E00CC8D6D /* JoinModel.swift in Sources */,
 				2B9455572BC814CD00CC8D6D /* Router.swift in Sources */,
+				2B94555B2BC8509A00CC8D6D /* SignUpView.swift in Sources */,
+				2B9455692BC8639200CC8D6D /* WithdrawViewController.swift in Sources */,
 				2B9455502BC8127300CC8D6D /* HTTPHeader.swift in Sources */,
+				2B9455612BC8561D00CC8D6D /* CompletedSignUpView.swift in Sources */,
 				2B94551A2BC7CFA800CC8D6D /* SceneDelegate.swift in Sources */,
+				2B94556B2BC8682B00CC8D6D /* WithdrawModel.swift in Sources */,
 				2B9455422BC8049000CC8D6D /* ViewModelType.swift in Sources */,
+				2B9455672BC8638600CC8D6D /* WithdrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
